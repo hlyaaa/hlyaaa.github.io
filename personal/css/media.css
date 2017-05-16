@@ -1,0 +1,124 @@
+
+
+/*在1200-992px分辨率下*/
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+     .header{
+    	height: 300px;
+    }
+    .name{
+    	padding-top: 50px;
+    } 
+    h1{
+		font-size: 80px;
+	} 
+	h2{
+		font-size: 40px;
+		padding-top: 10px;
+	}
+   .container{
+    	width: 970px;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .service {
+    max-width: 293px;
+    height: 213px;
+}
+.service_wrap p {
+    font-size: 11px;
+    padding: 0px 10px;
+}
+.service_wrap i{
+    width: 45px;
+    height: 56px;
+    margin-top: 28px;
+}
+}
+
+/*在998-768分辨率下*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+   .header{
+    	height: 200px;
+    }
+    .name{
+    	padding-top: 40px;
+    }
+    h1{
+    	font-size: 50px;
+    }
+    h2{
+    	font-size: 30px;
+    	padding-top: 0;
+    }
+    .logo_text{
+    	font-size: 24px;
+    }
+    .container{
+    	width: 750px;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .service {
+    max-width: 293px;
+    height: 293px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.service-wrap p {
+    padding: 0px 40px;
+    font-size: 14px;
+}
+.service_wrap i{
+    width: 68px;
+    height: 84px;
+}
+}
+
+/*小于768分辨率的*/
+
+@media (max-width: 768px){
+	.header{
+		height:200px;
+	} 
+	.name{
+		padding-top: 40px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.container{
+    	width:100%;
+    }
+     .logo_text{
+    	font-size: 20px;
+    }
+    .logo .logo_meau i{
+    	width: 30px;
+    	height: 30px;
+    	margin-top: 23px;
+    }
+    .col-xs-12{
+        width: 100%;
+    }
+    .service {
+    max-width: 293px;
+    height: 293px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.service_wrap p {
+    padding: 0px 40px;
+    font-size: 13px;
+}
+.service_wrap i{
+    width: 68px;
+    height: 84px;
+}
+}
