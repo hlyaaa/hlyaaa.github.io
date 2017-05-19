@@ -1,0 +1,700 @@
+.one{
+	width: 100%;
+	height: 110px;
+	background: #131413;
+	float: left;
+    }
+.one1{
+	width: 1270px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.picture{
+	width: 166px;
+	height: 90px;
+	float: left;
+	margin-top: 10px; 
+}
+.picture-right{
+	width: 1104px;
+	height: 100%;
+	/* background: pink; */
+	float: right;
+
+}
+.one1-right{
+	width: 1104px;
+	height: 90px;
+	/* background: yellow; */
+	margin-top: 10px;	
+}
+
+.one1-right ul li{
+	font-size: 16px;
+	line-height: 90px;
+	text-align:center; 
+	color: #EEEEEE;
+	float: left;
+	margin-right: 70px;
+	margin-left: 52px;
+}
+.two{
+	width: 1202px;
+	height: 114px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+}
+.two-top{
+	width: 150px;
+	height: 35px;
+	/* background: orange; */
+	float: left;
+}
+.two-top ul li{
+	font-size: 10px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	margin-left: 17px;
+}
+.two-bottom{
+	width: 100%;
+	height: 79px;
+	/* background: pink; */
+	float: left;
+	border-bottom: 1px solid #C4C0BA;
+}
+.two-bottom ul li{
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 79px;
+	float: left;
+	margin-left: 120px;
+}
+.three{
+	width: 1200px;
+	height: 400px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+	margin-top: 22px;
+	border: 1px solid #DADADA;
+}
+.three-middom{
+	width: 1145px;
+	height: 382px;
+	/* background: pink; */
+	margin-left: 27px;
+}
+.three-left{
+	width: 384px;
+	height: 382px;
+	background: url('../img/two.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-top: 8px;
+}
+.three-right{
+	width: 644px;
+	height: 354px;
+	/* background: blue; */
+	float: right;
+	margin-top: 14px;
+}
+.three-right h1{
+	width: 100%;
+	height: 40px;
+	/* background: orange; */
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	/* line-height: 40px; */
+	margin-top: 30px;
+}
+.three-right h2{
+	width: 100%;
+	/* height: 100px; */
+	/* background: orange; */
+	float: left;
+	font-size: 15px;
+	margin-top: 30px;
+} 
+.three-right p{
+	width: 100%;
+	height: 100px;
+	/* background: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.three-right span{
+	width: 100%;
+	height: 100px;
+	/* background: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.three-right h3{
+	width: 100%;
+	/* height: 100px; */
+	/* background: orange; */
+	font-size: 15px; 
+	margin-top: 40px;
+} 
+
+
+.four{
+	width: 1200px;
+	height: 400px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+	margin-top: 62px;
+	border: 1px solid #DADADA;
+}
+.four-middom{
+	width: 1145px;
+	height: 382px;
+	/* background: pink; */
+	margin-left: 27px;
+}
+.four-left{
+	width: 384px;
+	height: 382px;
+	background: url('../img/three.png') center center no-repeat;
+	background-size: 100%;
+	float: right;
+	margin-top: 8px;
+}
+.four-right{
+	width: 644px;
+	height: 354px;
+	/* background: blue; */
+	float: left;
+	margin-top: 14px;
+}
+.four-right h1{
+	width: 100%;
+	height: 40px;
+	/* background-size: orange; */
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	/* line-height: 40px; */
+	margin-top: 30px;
+}
+.four-right h2{
+	width: 100%;
+	/* height: 100px; */
+	/* background-size: orange; */
+	float: left;
+	font-size: 15px;
+	margin-top: 30px;
+} 
+.four-right p{
+	width: 100%;
+	height: 100px;
+	/* background-size: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.four-right span{
+	width: 100%;
+	height: 100px;
+	/* background-size: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.four-right h3{
+	width: 100%;
+	/* height: 100px; */
+	/* background-size: orange; */
+	font-size: 15px; 
+	margin-top: 40px;
+} 
+
+
+.five{
+	width: 1200px;
+	height: 400px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+	margin-top: 62px;
+	border: 1px solid #DADADA;
+}
+.five-middom{
+	width: 1145px;
+	height: 382px;
+	/* background: pink; */
+	margin-left: 27px;
+}
+.five-left{
+	width: 384px;
+	height: 382px;
+	background: url('../img/four.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-top: 8px;
+}
+.five-right{
+	width: 644px;
+	height: 354px;
+	/* background: blue; */
+	float: right;
+	margin-top: 14px;
+}
+.five-right h1{
+	width: 100%;
+	height: 40px;
+	/* background: orange; */
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	/* line-height: 40px; */
+	margin-top: 30px;
+}
+.five-right h2{
+	width: 100%;
+	/* height: 100px; */
+	/* background: orange; */
+	float: left;
+	font-size: 15px;
+	margin-top: 30px;
+} 
+.five-right p{
+	width: 100%;
+	height: 100px;
+	/* background: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.five-right span{
+	width: 100%;
+	height: 100px;
+	/* background: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.five-right h3{
+	width: 100%;
+	/* height: 100px; */
+	/* background: orange; */
+	font-size: 15px; 
+	margin-top: 40px;
+} 
+
+
+
+.six{
+	width: 1200px;
+	height: 400px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+	margin-top: 62px;
+	border: 1px solid #DADADA;
+}
+.six-middom{
+	width: 1145px;
+	height: 382px;
+	/* background: pink; */
+	margin-left: 27px;
+}
+.six-left{
+	width: 384px;
+	height: 382px;
+	background: url('../img/five.png') center center no-repeat;
+	background-size: 100%;
+	float: right;
+	margin-top: 8px;
+}
+.six-right{
+	width: 644px;
+	height: 354px;
+	/* background: blue; */
+	float: left;
+	margin-top: 14px;
+}
+.six-right h1{
+	width: 100%;
+	height: 40px;
+	/* background-size: orange; */
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	/* line-height: 40px; */
+	margin-top: 30px;
+}
+.six-right h2{
+	width: 100%;
+	/* height: 100px; */
+	/* background-size: orange; */
+	float: left;
+	font-size: 15px;
+	margin-top: 30px;
+} 
+.six-right p{
+	width: 100%;
+	height: 100px;
+	/* background-size: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.six-right span{
+	width: 100%;
+	height: 100px;
+	/* background-size: orange; */
+	font-size: 12px;
+	margin-top: 20px;
+}
+.six-right h3{
+	width: 100%;
+	/* height: 100px; */
+	/* background-size: orange; */
+	font-size: 15px; 
+	margin-top: 40px;
+}
+.seven{
+	width: 1200px;
+	height: 185px;
+	/* background: pink; */
+	float: left;
+	margin-left: 80px;
+	border-bottom: 1px solid #DADADA;	
+} 
+.seven-one{
+	width: 565px;
+	height: 57px;
+	/* background: blue; */
+	margin: 0 auto;
+	margin-top: 70px;
+	color: #838383;
+}
+.first{
+	width: 90px;
+	height: 50px;
+	/* background: #ccf; */
+	float: left;
+	border: 1px solid #DADADA;
+	margin-top: 2px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+.seven-one ul li{
+	width: 50px;
+	height: 50px;
+	/* background: red; */
+	font-size: 12px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 2px;
+	border: 1px solid #DADADA;
+}
+.right{
+	width: 90px;
+	height: 50px;
+	/* background: #ccf; */
+	float: right;
+	border: 1px solid #DADADA;
+	margin-top: 2px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #838383;
+}
+.commitment{
+	width: 1200px;
+	height: 110px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+}
+.commitment ul li{
+	width: 350px;
+	height: 1px;
+	background: #DADADA;
+	float: left;
+	margin-top: 55px;
+	margin-right: 25px;
+	margin-left: 25px;
+	
+}
+.commitment ul li:nth-child(2){
+	font-size: 20px;
+	text-align: center;
+	width: 350px;
+	height: 50px;
+	color: #000;
+	margin-top:40px;
+	background: #fff;
+}
+.nine{
+	width: 1200px;
+	height: 170px;
+	/* background: red; */
+	float: left;
+	margin-left: 80px;
+}
+.nine-one{
+	width: 1000px;
+	height: 88px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.nine-left{
+	width: 250px;
+	height: 100%;
+	/* background: orangered; */
+	float: left;
+}
+.pictures{
+	width: 84px;
+	height:84px;
+	background: url('../img/2.png') center center no-repeat;
+	background-size: 100%;
+	float: left; 
+}
+.nine2{
+	width: 160px;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+}
+.nine2 span{
+	width: 100%;
+	height: 50%;
+	/* background: #ccc; */
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.nine-left2{
+	width: 250px;
+	height: 100%;
+	/* background: orangered; */
+	float: left;
+}
+.pictures2{
+	width: 84px;
+	height:84px;
+	background: url('../img/1.png') center center no-repeat;
+	background-size: 100%;
+	float: left; 
+}
+.nine22{
+	width: 160px;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+}
+.nine22 span{
+	width: 100%;
+	height: 50%;
+	/* background: #ccc; */
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.nine-left3{
+	width: 250px;
+	height: 100%;
+	/* background: orangered; */
+	float: left;
+}
+.pictures3{
+	width: 84px;
+	height:84px;
+	background: url('../img/2.png') center center no-repeat;
+	background-size: 100%;
+	float: left; 
+}
+.nine23{
+	width: 160px;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+}
+.nine23 span{
+	width: 100%;
+	height: 50%;
+	/* background: #ccc; */
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.nine-left4{
+	width: 250px;
+	height: 100%;
+	/* background: orangered; */
+	float: left;
+}
+.pictures4{
+	width: 84px;
+	height:84px;
+	background: url('../img/1.png') center center no-repeat;
+	background-size: 100%;
+	float: left; 
+}
+.nine24{
+	width: 160px;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+}
+.nine24 span{
+	width: 100%;
+	height: 50%;
+	/* background: #ccc; */
+	float: left;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.end{
+	width: 100%;
+	height: 490px;
+	background: #131413;
+	float: left;
+	margin-top: 80px;
+}
+.end-top{
+	width: 100%;
+	height: 396px;
+	/* background: red; */
+	float: left;
+}
+.end-bottom{
+	width: 100%;
+	height: 94px;
+	/* background: pink; */
+	float: left;
+	border-top: 1px solid #000;
+}
+.end-bottom p{
+	width: 100%;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 13px;
+	line-height: 40px;
+	text-align: center;
+	color: #595959;
+}
+.btn{
+	width: 1212px;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+	margin-left: 80px;
+}
+.btn-left{
+	width: 500px;
+	height: 250px;
+	/* background: #ccc; */
+	float: left;
+	margin-top: 70px;
+}
+.btn-top{
+	width: 166px;
+	height: 90px;
+	background: url('../img/one.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.btn-bottom{
+	width: 100%;
+	height: 160px;
+	/* background: pink; */
+	float: left;
+}
+.btn-bottom ul li{
+	width: 140px;
+	height: 30px;
+	/* background: orangered; */
+	float: left;
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 25px;
+	color: #878787;
+}
+.btn-right{
+	width: 380px;
+	height: 250px;
+	/* background: orangered; */
+	float: right;
+	margin-top: 130px;
+}
+.a-top{
+	width:100px;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 15px;
+	line-height: 40px;
+	text-align: center; 
+}
+.b-top{
+	width: 100%;
+	height: 40px;
+	/* background: red; */
+	float: left;
+	font-size: 15px;
+	line-height: 50px;
+	text-align: center; 
+	/* margin-top: 10px; */
+}
+.name{
+	width: 170px;
+	height: 30px;
+	background: #252524;
+	float: left;
+	border: 0;
+}
+.telphone{
+	width: 170px;
+	height: 30px;
+	background: #252524;
+	float: right;
+	border: 0;
+}
+.home{
+	width: 100%;
+	height: 30px;
+	background: #252524;
+	float: left;
+	margin-top: 8px;
+	border: 0;
+}
+.please{
+	width: 100%;
+	height: 70px;
+	background: #252524;
+	float: left;
+	margin-top: 8px;
+	font-size: 15px;
+	border: 0;	
+}
+.give{
+	width: 80px;
+	height: 30px;
+	background: #40351B;
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	border: 0;
+}

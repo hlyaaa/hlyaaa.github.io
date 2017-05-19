@@ -1,276 +1,441 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<script src="js/jquery.js"></script>
-	<link rel="stylesheet" href="css/jquery.fullPage.css">
-	<script src="js/jquery.fullPage.js"></script>
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
-	
+    <title>personal</title> 
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <link href="css/lib/nivo-lightbox.css" rel="stylesheet">
+    <link href="css/lib/nivo-themes/default/default.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/scheme/purple.css" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-min.css">
+    <style>
+    body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+
+    }
+    </style>
 </head>
-<body>
+
+<body data-spy="scroll">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 	
-	<div id="fullpage">	
+    <div id="main-wrapper">
 
-		<!-- head 开始 -->
-		<div class="section">
-			<div class="header">
-				<div class="name">
-					<h1>Personal Resume</h1>
-				    <h2>The Worst Front End Developer</h2>
+        <div id="menu">
+            <nav class="navbar navbar-default" role="navigation">
+                
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="sscroll" href="index.html#home">Home</a></li>
+                        <li><a class="sscroll" href="index.html#services">Services</a></li>
+                        <li><a class="sscroll" href="index.html#portfolio">Portfolio</a></li>
+                        <li><a class="sscroll" href="index.html#blog-front">Works Show</a></li>
+                        <li><a class="sscroll" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
+        
+        <div id="container">
+
+
+            <!-- HOME开始 -->
+            <section id="home" class="home">
+                
+                <div id="home-slide">
+                    <ul class="slides-container text-center">
+                        <li>
+                            <div class="slide-text">
+                                <h2>Personal Resume</h2>
+                                <span>The Worst Front End Developer</span>
+                                <br/>
+                            </div>
+                          <div class="slide-filter"></div>
+                            <img src="images/slider/bj3.jpg" class="par" alt="first">
+                        </li>
+                        <li>
+                            <div class="slide-text">
+                                <h2>Personal Resume</h2>
+                                <span>The Worst Front End Developer</span>
+                                <br/>
+                            </div>
+                          <div class="slide-filter"></div>
+                            <img src="images/slider/bj2.jpg" class="par" alt="first">
+                        </li>
+                        <li>
+                            <div class="slide-text">
+                                <h2>Personal Resume</h2>
+                                <span>The Worst Front End Developer</span>
+                                <br/>
+                            </div>
+                          <div class="slide-filter"></div>
+                            <img src="images/slider/bj1.jpg" class="par" alt="first">
+                        </li>
+                    </ul>
+                    <nav class="slides-navigation slidez">
+                        <a href="javascript:;" class="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                        <a href="javascript:;" class="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    </nav>
+                </div>
+               >
+            </section>
+            <!--  HOME结束 -->
+
+
+            
+           <!-- 技能开始-->
+            <section id="services" class="services">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-content">
+                            <h2>Services</h2>
+                            <h3>This is what I good at</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                        <img src="images/1.png" alt="" style="width: 40px">
+                                    </div>
+                                    <h3 class="heading">Hypertext Preprocessor</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-			</div> 
-			<div class="nav">
-		    	<div class="container">
-		    		<div class="row">
-		    			<div class="fn_left col-lg-6">
-		    				<div class="logo fn_tl">
-		    					<a class="logo_text" href="">Mrs huang</a>
-		    				</div> 
-		    			</div>
-		    			<div class="fn_left col-lg-6">
-		    				<div class="logo fn_tr">
-		    					<a class="logo_meau" href="">
-		    						<i></i>
-		    					</a>
-		    				</div>
-		    			</div>
-		    		</div>
-		    	</div>  	
-		    </div>
-		</div>
-	    <!-- head 结束 -->
-
-
-
-
-		<!-- services 开始 -->
-		<div class="section">
-			<div id="services">
-				<div class="container">
-					<div class="title services_title col-lg-12"></div>
-					<div class="row services_list fn_clear">
-						<div class="services_item col-lg-3 col-md-6 col-xs-12">
-							<div class="service">
-								<div class="service_wrap">
-									<i class="service_img"></i>
-									<h3>Html  5</h3>
-		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
-								</div>
-							</div>
-						</div>
-						<div class="services_item col-lg-3 col-md-6 col-xs-12">
-							<div class="service2">
-								<div class="service2_wrap">
-									<i class="service2_img"></i>
-									<h3>Photo Shop</h3>
-		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing edivt. Laborum, commodi.</p>
-								</div>
-							</div>
-						</div>
-						<div class="services_item col-lg-3 col-md-6 col-xs-12">
-							<div class="service3">
-								<div class="service3_wrap">
-									<i class="service3_img"></i>
-									<h3>CSS3</h3>
-		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing edivt. Laborum, commodi.</p>
-								</div>
-							</div>
-						</div>
-						<div class="services_item col-lg-3 col-md-6 col-xs-12">
-							<div class="service4">
-								<div class="service4_wrap">
-									<i class="service4_img"></i>
-									<h3>     AI    </h3>
-		                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing edivt. Laborum, commodi.</p>
-								</div>
-							</div>
-						</div>
-					</div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                       <img src="images/JS.jpg" alt="" style="width: 70px">
+                                    </div>
+                                    <h3 class="heading">JavaScript</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-			</div>
-		</div>
-		<!-- services 结束 -->
-
-
-
-		<!-- works 开始 -->
-		<div class="section">
-			<div id="works">
-				<div class="container">
-					<div class="title work_title col-lg-12"></div>
-					<div class="row port cs-style-3 fn_clear">
-						 <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>FAN   KE</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../凡客/11.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-		                     <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>TIAN   MAO</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../天猫/index.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-		                     <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>PING   GUO</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../苹果/1.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-		                     <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>XIAO   MI</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../小米/xiaomi.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-		                     <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>YOU  YI  KE</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../优逸客网站/首页/首页.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-		                     <div class="col-md-4 col-md-6 col-xs-12 item-space">
-		                        <figure>
-		                            <img src="img/aa.jpg" alt="img04">
-		                            <figcaption>
-		                                <h3>TIAN   MAO</h3>
-		                                <span>Jacob Cummings</span>
-		                                <a href="../天猫移动端/首页/首页.html" class="button" >Take a look</a>
-		                            </figcaption>
-		                        </figure>
-		                    </div>
-					</div>
-					<div class="col-xs-12">
-						<div class="btn-center"><a href="#" class="big button">View all</a></div>
-					</div>
-
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                        <img src="images/html.png" alt="" style="width: 50px">
+                                    </div>
+                                    <h3 class="heading">HTML5</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-			</div>
-		</div>
-		<!-- works 结束 -->
-
-
-
-		<!-- Testimonial 开始 -->
-		<div class="section">
-			<div id="testimonial" class="testimonial-area">
-				<div class="container">
-					<div class="title testimonial_title col-lg-12"></div>
-					<div class="row">
-						<div class="col-xs-12">
-						</div>
-						<div id="testimonial-container" class="col-xs-12">
-							<div class="testimonila-block">
-								<img src="img/ly.jpg" alt="clients" class="selfshot">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed mollitia illum! Molestiae dignissimos, hic dolorem et eius ut nobis. Corrupti totam amet aperiam aut voluptate nobis dolor at soluta.</p>
-								<strong>Monir Hossain</strong>
-								<br>
-								<small>C.E.O</small>
-							</div>
-						</div>
-					</div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                        <img src="images/css3.png" alt="" style="width: 50px">
+                                    </div>
+                                    <h3 class="heading">Cascading Style Sheet</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-			</div>
-		</div>
-		<!-- Testimonial 结束 -->
-
-
-
-		<!-- Contact 开始 -->
-		<div class="section">
-			<div id="contact" class="mapWrap">
-				<div id="googleMap" style="width:100%;"></div>
-				<div id="contact-area">
-					<div class="container">
-						<div class="title block_title col-lg-12"></div>
-						<div class="row fn_clear">
-							<div class="col-xs-12">
-							</div>
-							<div class="col-sm-6 col-xs-12">
-								<div class="moreDetails">
-									<h2 class="con-title">More About me</h2>
-									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus doloremque sint ea laboriosam, excepturi iure inventore rerum voluptatibus, suscipit totam, sit necessitatibus. Rerum, blanditiis. </p>
-									<ul class="address">
-										<li><i class="pe-7s-map-marker"></i><span>1600 Pennsylvania Ave NW,<br>Washington, DC 20500,<br>United States</span></li>
-										<li><i class="pe-7s-mail"></i><span>example@gmail.com</span></li>
-										<li><i class="pe-7s-phone"></i><span>+1-202-555-0144</span></li>
-										<li><i class="pe-7s-global"></i><span><a href="#">www.themewagon.com</a></span></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-6 col-xs-12">
-								<h2 class="con-title">Drop us a line</h2>
-								<form role="form">
-									<div class="form-group">
-										<input type="text" class="form-control" id="user_name" placeholder="Enter your name">
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" id="your_email" placeholder="Enter your email">
-									</div>
-									<div class="form-group">
-										<textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
-									</div>
-
-									<button type="submit" class="btn medium">Let us know</button>
-								</form>   
-							</div>
-						</div>
-					</div><!-- container结束 -->
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                        <img src="images/ps2.png" alt="" style="width: 50px">
+                                    </div>
+                                    <h3 class="heading">PhotoShop</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-				<div id="social">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12">
-								<ul class="scoialinks">
-									<li class="normal-txt">Find me on</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="service">
+                                    <div class="icon-holder">
+                                        <img src="images/ai.png" alt="" style="width: 50px">
+                                    </div>
+                                    <h3 class="heading">Adobe Illustrator</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus.</p>
 				</div>
-			</div>
-		</div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </section>
+            <!-- 技能结束-->
 
 
-	</div>
+
+            <!-- ps展示开始-->
+            <section id="portfolio" class="portfolio gray">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-content">
+                            <h2>Portfolio</h2>
+                            <h3>Some of my accomplishments</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <ul class="portfolioFilter text-center">
+                            <li data-filter="websites">WEB SITES</li>
+                            <li data-filter="illustrations">ILLUSTRATIONS</li>
+                            <li data-filter="photo">PHOTOGRAPHS</li>
+                            <li data-filter="all">EVERYTHING</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 mg-bt-80">
+                        <div class="row portfolioContainer  text-center">
+                            <div class="col-md-4 col-xs-6 portfolio-item websites">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-5.jpg" data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Designing UI/UX
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-5.jpg" alt="portfolio-thumb-1">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 portfolio-item illustrations">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-6.jpg" data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Designing Apps
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-6.jpg" alt="portfolio-thumb-5">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 portfolio-item websites">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-1.jpg" title="Image with title"  data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Branding Identity
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-1.jpg" alt="portfolio-thumb-3">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 portfolio-item photo">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-2.jpg" data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Photography
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-2.jpg" alt="portfolio-thumb-4">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 portfolio-item websites">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-4.jpg" data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Website Design
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-4.jpg" alt="portfolio-thumb-2">
+                                </a>
+                            </div>
+                            <div class="col-md-4 col-xs-6 portfolio-item illustrations">
+                                <a class="popup" href="images/portfolio/portfolio-thumb-3.jpg" data-lightbox-gallery="team-portfolio">
+                                    <span class="project-hover">
+                                        <span>Branding Illustration
+                                        </span>
+                                    </span>
+                                    <img src="images/portfolio/portfolio-thumb-3.jpg" alt="portfolio-thumb-6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  ps展示结束-->
+            
+          
+
+            <!-- 作品展示开始 -->
+            <section id="blog-front" class="blog-front gray">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <a href="../fanke/11.html" class="swiper-slide">
+                                    <div class="swiper-slide" style="background-image:url(imgs/fk.jpg)"></div>
+                                </a>
+                                <a href="../tianmao/tianmao.html " class="swiper-slide" ><div class="swiper-slide" style="background-image:url(imgs/tm.jpg)"></div>
+                                </a>
+                                <a href="../mi/im.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/xm.jpg)"></div>
+                                </a>
+                                <a href="../jingdong/index.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/jd.jpg)"></div>
+                                </a>
+                                <a href="../yidong/yidong.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/yd.jpg)"></div>
+                                </a><a href="../shafa/index.html" class="swiper-slide">
+                                 <div class="swiper-slide" style="background-image:url(imgs/sf.jpg)"></div>
+                                 </a>
+                                 <a href="../meishi/shouye.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/two.jpg)"></div>
+                                </a>
+                                <a href="../apple/index.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/pg.jpg)"></div>
+                                </a>
+                                <a href="../todolist.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/td.jpg)"></div>
+                                </a>
+                                <a href="../picture/hb.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/hb.jpg)"></div>
+                                </a>
+                                <a href="../dazi/game1.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/dz.jpg)"></div>
+                                </a>
+                                <a href="../saolei/sl.html" class="swiper-slide">
+                                <div class="swiper-slide" style="background-image:url(imgs/sl.jpg)"></div>
+                                </a>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </div> 
+            </section>
+            <!--  作品展示结束-->
+
+
+            
+            <!-- 小黑块开始 -->
+            <section class="cta text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Purchase Team Pro and Get Access To</h3>
+                        <p>6 Pre-built color scheme, less, php enabled contact form, slider and parallax home and Pro SUPPORT</p>
+                    </div>
+                </div>                
+            </section>
+            <!--  小黑块结束-->
+
+
+            <!-- 联系我开始 -->
+            <section id="contact" class="contact gray">
+                <div class="row">
+                    <div class="col-md-12 mg-bt-80">
+                        <div class="header-content">
+                            <h2>Contact Me</h2>
+                            <h3>Let me know if you have any query</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="address">
+                            <h2>Get in touch</h2>
+                            <p>Quod cum ita sit, paucae domus stud torpentis exundant, vocali sonu, perflabili tinnitu fidium resultantes. denique pro philosopho cantor et in locum oratoris doctor a</p>
+                            <h2>Team Office</h2>
+                            <ul class="office">
+                                <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 山西省太原市小店区凯通大厦5层</li>
+                                <li><i class="fa fa-phone"></i> <strong>Phone:</strong>157-3516-5772</li>
+                                <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">2247964581@qq.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <form id="contact-form" role="form">                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="c_name" placeholder="Name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="c_email" placeholder="Email">                                
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea class="form-control" id="c_message" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <br/>
+                            <button type="submit" class="btn">Send Message</button>
+                            <div class="ajax-response"></div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- 联系我结束-->
+            
+
+
+            <!-- BEGIN FOOTER开始 -->
+            <footer>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="social">
+                            <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                            <a href="javascript:;"><i class="fa fa-twitter"></i></a>
+                            <a href="javascript:;"><i class="fa fa-pinterest"></i></a>
+                            <a href="javascript:;"><i class="fa fa-dribbble"></i></a>
+                </div>
+                        <p>
+                            Copyright &copy; 2016.Company name All rights reserved.</a>
+                        </p>                        
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER结束-->
+        </div>
+    </div>
+
+
+    <!-- Back to top -->
+    <div id="backtotop">       
+        <a class="to-top-btn sscroll" href="index.html#home"><i class="fa fa-angle-double-up"></i></a>
+    </div>
+
+
+    <!-- Library Scripts -->
+    <script src="jquery.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/lib/jquery.preloader.js"></script>
+    <script src="js/lib/nivo-lightbox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lib/jquery.superslides.min.js"></script>
+    <script src="js/lib/smoothscroll.js"></script>
+    <script src="js/lib/jquery.sudoslider.min.js"></script>
+    <script src="js/lib/jquery.bxslider.min.js"></script>
+    <script src="js/lib/jquery.mixitup.min.js"></script>
+    <script src="js/lib/jquery.backtotop.js"></script>
+    <script src="js/lib/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="js/lib/retina.min.js"></script>   
+    <script src="js/main.js"></script>
+    <script src="swiper-jquery-min.js"></script>
 </body>
- 
-
- <script>
-    $(function(){
-        $('#fullpage').fullpage({
-            'verticalCentered': false,
-            'css3': true,
-            anchors: ['page1', 'page2', 'page3', 'page4'],
-            'navigation': true,
-            'navigationPosition': 'right',
-            'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple']
-        })
-    })
-</script>
+     <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true
+            }
+        });
+    </script>
 </html>
